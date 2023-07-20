@@ -1,10 +1,14 @@
-
 //created an array of object which contains mountains and its properties
 let mountains = [
     {name: 'kilimanjaro',
      height: 5895,
      place: 'tanzania'
-    }
+    },
+    // {
+    //     name: 'Mount Everest',
+    //     height: 8848,
+    //     place: 'china'
+    // }
 ]
 
 //created a table element <table>
@@ -47,4 +51,6 @@ for(let hiking of mountains){
 //using the getElement i accessed the HTML id of "mountains" and stored it in the new variable mountain
 let mountain = document.getElementById('mountains')
 mountain.appendChild(table) //then stored the properties of table in the variable mountain so it can be visually viewed on the browser 
-console.log(table);
+
+
+
